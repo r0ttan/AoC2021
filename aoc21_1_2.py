@@ -19,9 +19,9 @@ def applic(inpstr):
     if len(sumstore) > 1:
       if sumstore[1]-sumstore[0] > 0:
         dpcount += 1
-      else:
-        print('*', end='')
-  print(f'{dpstore} {sumstore} {dpcount}')
+      #else:
+        #print('*', end='')
+  #print(f'{dpstore} {sumstore} {dpcount}')
 
 def solve():
   with open(inpfile) as inp:
